@@ -36,7 +36,7 @@ navigator.mediaDevices.getUserMedia({ video: true })
   .catch(err => {
     alert('Camera access denied: ' + err);
   });
-
+ 
 // Handle photo capture
 takePhotoBtn.addEventListener('click', async () => {
   const name = photoName.value.trim();
