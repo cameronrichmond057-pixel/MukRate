@@ -18,7 +18,6 @@ if (fs.existsSync(dataFile)) {
     points = JSON.parse(fs.readFileSync(dataFile));
 }
 const multer = require('multer');
-const fs = require('fs');
 const path = require('path');
 
 // Setup storage
